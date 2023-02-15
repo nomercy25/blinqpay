@@ -764,7 +764,7 @@ li a {
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .wrapper {
     background: url(../img/mobile-head-bg.png);
     background-size: cover;
@@ -776,7 +776,7 @@ li a {
     overflow-x: hidden;
   }
   .container {
-    padding: 15px;
+    padding: 32px;
   }
   /* �������� ������� */
   #menu-toggle {
@@ -787,11 +787,12 @@ li a {
   .menu-btn {
     display: flex;
     position: absolute;
-    right: 15px;
+    right: 32px;
+    top: 40px;
     /* ���������� flex ��� ������������� ����������� */
     align-items: center;
     /* ���������� ���������� ������ */
-    width: 40px;
+    width: 30px;
     height: 40px;
     cursor: pointer;
     z-index: 999;
@@ -987,11 +988,11 @@ li a {
   }
 
   .main-container {
-    padding: 0 15px;
+    padding: 0 35px;
   }
   .advantages-container {
     max-width: 991px;
-    padding: 15px;
+    padding: 36px;
   }
 
   .advantages-block {
@@ -1002,7 +1003,7 @@ li a {
     margin-left: 0;
     padding-left: 0;
     margin-top: 0;
-    width: 95%;
+    width: 100%;
   }
 
   .first-payment-heading {
