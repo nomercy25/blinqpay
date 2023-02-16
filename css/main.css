@@ -1632,7 +1632,8 @@ li a {
     font-weight: 800;
   }
   .third-payment-subheading {
-    font-size: 13px;
+    font-size: 14px;
+    width: 95%;
   }
 
   .third-payment-btn {
@@ -1658,8 +1659,8 @@ li a {
     font-size: 22px;
   }
   .four-payment-subheading {
-    font-size: 13px;
-    width: 100%;
+    font-size: 14px;
+    width:100%;
   }
 
   .four-payment-btn {
@@ -1860,6 +1861,9 @@ li a {
 }
 
 @media screen and (max-width: 409px) {
+  .wrapper {
+    height: 450px;
+  }
   .offer-heading {
     font-size: 30px;
     line-height: 1.5;
@@ -1869,7 +1873,7 @@ li a {
     width: 110%;
   }
   .first-payment-subheading {
-    width: 100%;
+    width: 90%;
     font-size: 13px;
   }
 
@@ -1887,7 +1891,7 @@ li a {
 
   .third-payment-subheading {
     font-size: 13px;
-    width: 110%;
+    width: 100%;
   }
   .photo-group {
     top: 64%;
