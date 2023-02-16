@@ -1707,7 +1707,7 @@ li a {
   .reviews-heading {
     font-size: 24px;
     font-weight: 800;
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     text-align: center;
   }
@@ -1885,6 +1885,10 @@ li a {
     width: 105%;
   }
 
+  .third-payment-block {
+    margin-top: 70px;
+  }
+
   .third-payment-heading {
     font-size: 18px;
   }
@@ -1894,9 +1898,10 @@ li a {
     width: 100%;
   }
   .photo-group {
-    top: 64%;
+    top: 68%;
   }
 
+ 
   .four-payment-heading {
     font-size: 18px;
   }
@@ -1905,6 +1910,7 @@ li a {
     width: 105%;
   }
   .reviews-heading {
-    font-size: 22px;
+    font-size: 24px;
+    width: 90%;
   }
 }
